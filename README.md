@@ -30,8 +30,8 @@ If you want to create your own CrUX Explore, follow these instructions.
 
 1. Clone the repository and install dependencies: 
 <pre><code>
-$ git clone git@github.com:guaca/crux-checker.git
-$ cd crux-checker
+$ git clone git@github.com:guaca/crux-explorer.git
+$ cd crux-explorer
 $ npm install
 </code></pre>
 
