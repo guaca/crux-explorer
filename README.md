@@ -13,6 +13,9 @@ Check how your page is performing in CWV and compare your results to your main c
 ## Disclaimer
 This project stores secret data (database configuration and API keys) in the React App. I know it's a terrible idea and it will be visible through developer tools. This data should be stored in backend. 
 
+## Live Demo
+https://crux-explorer.netlify.app
+
 ## Screenshots
 ### Home
 ![Home page](/public/screenshots/home.jpg)
@@ -39,6 +42,22 @@ $ npm install
 
 3. Get your own Crome User Experience Report APIkey and set it in NewCheck.jsx file ([documentation](https://developers.google.com/web/tools/chrome-user-experience-report/api/guides/getting-started))
 
+Now you can run one of the available scripts
+
+### npm run start
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in the browser.
+
+The page will reload if you make edits.
+You will also see any lint errors in the console.
+
+### npm run build
+Builds the app for production to the build folder.
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.
+Your app is ready to be deployed!
+
 ## Features and Technologies of the project
 - [React](https://reactjs.org/) and [React Hooks](https://reactjs.org/docs/hooks-intro.html) for building the entire UI and handle the app state.
 - [React Router](https://reactrouter.com/docs/en/v6), to handle URLs.
@@ -51,6 +70,3 @@ $ npm install
 - Create an input component to ask users for their own CrUX APIkey and store it in localStorage.
 - Store saved tests into Firebase Realtime Database instead of localStorage.
 - Add Jest unit testing.
-
-## Demo
-. https://crux-explorer.netlify.app
