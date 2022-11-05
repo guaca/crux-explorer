@@ -69,6 +69,8 @@ const NewCheck = () => {
             first_contentful_paint: 'FCP',
             first_input_delay: 'FID',
             largest_contentful_paint: 'LCP',
+            experimental_time_to_first_byte: 'TTFB',
+            experimental_interaction_to_next_paint: 'INP'
         };
 
         return Object.entries(metrics).map(([metricName, metricData]) => {
